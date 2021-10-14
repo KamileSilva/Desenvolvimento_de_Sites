@@ -1,0 +1,53 @@
+.cor {
+	background-color: #ADD8E6;
+	padding: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	size: 6px;
+}
+
+a:hover {
+  text-decoration: none;
+	color: #000;
+	size: 6px;
+}
+
+
+.btn {
+  background-color: #ADD8E6;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #87CEFA;
+  color: white;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #4169E1;
+}
+
+.card {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #4169E1;
+}
+
+.top {
+	margin: auto;
+	padding: 10px 0;
+
+}

@@ -1,0 +1,168 @@
+.rodape {
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #004b00;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	size: 6px;
+}
+
+a:hover {
+	color: #fff;
+	size: 6px;
+}
+
+.menu {
+	background-color: #FF81AB;
+}
+
+.btn {
+  background-color: #FF81AB;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #FB4E8D;
+}
+
+.back {
+	padding-top: 30px;
+    padding-bottom: 30px;
+	background-color: #32CD32;
+	opacity: 0.9;
+	color: black;
+}
+
+.back2 {
+	padding-top: 30px;
+    padding-bottom: 30px;
+	background-color: #2E8B57;
+	opacity: 0.9;
+	color: white;
+}
+
+.back3 {
+	padding-top: 30px;
+    padding-bottom: 30px;
+	background-color: #3CB371;
+	opacity: 0.9;
+	color: white;
+}
+
+.p2 {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #3CB371;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #004b00;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #006400;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #ffff49;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	background-color: #004b00;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	background-color: #ffff49;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* -------------------------------------------------------------------- IMAGEM DE FUNDO -------------------------------------------------------------------- */
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("fundo1.png");
+
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(211,211,211); /* Fallback color */
+  background-color: rgba(211,211,211, 0.4); /* Black w/opacity/see-through */
+  color: #363636;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 15px;
+  text-align: center;
+}

@@ -1,0 +1,310 @@
+<html>
+<head>
+<title> Amauri do Figueira </title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+<!----------------------------------------------------------- NAV responsiva e com caixa --------------------------------------------------------------------->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--------------------------------------------------------------------- Imagem Barra ------------------------------------------------------------------------->
+
+<link rel="shortcut icon" href="./assets/images/logo.png">
+
+<link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+</head>
+
+<body>
+
+<!----------------------------------------------------------------------- Nav -------------------------------------------------------------------------------->
+<div class="topnav" id="myTopnav">
+  <a class="nav-link disabled" href="#"><img src="assets/images/logo.png" width="75px" height="75px"> </a>
+  <a href="index.html"><br><i class='fa fa-home' style='font-size:24px'></i> Início </a>
+  <a href="javascript:void(0);" class="icon" onclick="MyFunction()">
+    <br><i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function MyFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<main>
+
+<!------------------------------------------------------------------- Galeria -------------------------------------------------------------------------------->
+
+<div id="galeria" class="panel panel-default back5 p2">
+  <div class="panel-body">
+	<div class="container" align="center">
+		<h1 class="display-5"> Galeria </h1>
+		
+		<div class="tab">
+		  <button class="tablinks" onclick="openCity(event, 'jardim')">Jardins</button>
+		  <button class="tablinks" onclick="openCity(event, 'condo')">Condomínios</button>
+		  <button class="tablinks" onclick="openCity(event, 'calcada')">Calçadas</button>
+		  <button class="tablinks" onclick="openCity(event, 'poda')">Podas</button>
+		  <button class="tablinks" onclick="openCity(event, 'pergolado')">Pergolados</button>
+		  <button class="tablinks" onclick="openCity(event, 'planta')">Plantas</button>
+		</div>
+		
+		<!--------------------------------------------------------------- Jardim ------------------------------------------------------------------------->
+		<div id="jardim" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Jardins</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/jard1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard2.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard3.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard4.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard5.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard6.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/jard7.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+		  </div>
+		</div>
+		
+		<!--------------------------------------------------------------- Condomínio ------------------------------------------------------------------------->
+		<div id="condo" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Condominios</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/condo1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo2.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo3.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo4.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo5.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo6.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo7.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo8.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo9.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo10.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/condo11.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+		  </div>
+		</div>
+		
+		<!--------------------------------------------------------------- Calçada ------------------------------------------------------------------------->
+		<div id="calcada" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Calçadas</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/cal1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal2.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal3.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal4.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal5.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal6.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal7.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal8.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal9.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/cal10.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+		  </div>
+		</div>
+		
+		<!--------------------------------------------------------------- Poda ------------------------------------------------------------------------->
+		<div id="poda" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Podas</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/pod1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/pod2.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/pod3.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/pod4.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+		  </div>
+		</div>
+		
+		<!--------------------------------------------------------------- Pergolado ------------------------------------------------------------------------->
+		<div id="pergolado" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Pergolados</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/perg1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<br><br>
+			</div>
+			<div class="col-md-3">
+				<br><br>
+			</div>
+			<div class="col-md-3">
+				<br><br>
+			</div>
+		  </div>
+		</div>
+		
+		<!--------------------------------------------------------------- Plantas ------------------------------------------------------------------------->
+		<div id="planta" class="tabcontent">
+		  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+		  <h3>Plantas</h3>
+		  <div class="row">
+			<div class="col-md-3">
+				<img src="./assets/images/plant1.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/plant2.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/plant3.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/plant4.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img src="./assets/images/plant5.jpg" class="img-thumbnail" width="100%"><br><br>
+			</div>
+		  </div>
+		</div>
+		
+	</div>
+ </div>
+</div>
+
+<!-- SCRIPT DE TABS -->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</main>
+
+<!--------------------------------------------------------------------- Rodapé ------------------------------------------------------------------------------->
+
+<div class="panel panel-default rodape">
+  <div class="panel-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2" align="center">
+				<img src="assets/images/logo.png" width="80px" height="80px">
+			</div>
+			
+			<div class="col-md-3" align="center">
+				<p><br>
+				<b>Orçamento sem compromisso!</b>
+				</p>
+			</div>
+			
+			<div class="col-md-2" align="center">
+				<p>
+				<b> Contate-nos </b> <br>
+				<!-- LINK WHATSAPP -->
+				<a href="https://api.whatsapp.com/send?phone=5519987398970" target="_blank"> 
+				<i class='fa fa-whatsapp' style='font-size:36px;color:white'></i>
+				</a>
+				<!-- LINK INSTAGRAM -->
+				<a href="https://instagram.com/amaurijardinagem?utm_medium=copy_link" target="_blank">
+				<i class='fa fa-instagram' style='font-size:36px;color:white'></i>
+				</a> 
+				<!-- LINK FACEBOOK -->
+				<a href="https://www.facebook.com/amauridofigueira/" target="_blank">
+				<i class='fa fa-facebook-square' style='font-size:36px;color:white'></i>
+				</a>
+				</p>
+			</div>
+			
+			<div class="col-md-2" align="center">
+				<p> <b> Webdesigner </b> <br>
+				Kamile da Silva e Silva 
+				</p>
+			</div>
+			
+			<div class="col-md-3" align="center"><br>
+				<p> &copy; Developer Inc. 2021 </p>
+			</div>
+		</div>
+		
+	</div>
+  </div>
+</div>
+
+<!--chama o jquery-->
+<script type="text/javascript" src="assets/js/jquery-3.5.0.min.js"> </script>
+<!--chama o bundle-->
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"> </script>
+
+</body>
+</html>

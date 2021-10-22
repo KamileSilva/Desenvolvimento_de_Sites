@@ -1,0 +1,334 @@
+<html>
+<head>
+<title> Amauri Jardinagem </title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+
+<meta name="keywords" content="amauri jardinagem,jardim,jardinagem,monte mor ">
+<meta name="description" content="Procurando um jardineiro de experiência e qualidade na cidade de Monte Mor? Entre e saiba mais sobre o jardineiro Amauri do Figueira.">
+
+<!----------------------------------------------------------- NAV responsiva e com caixa --------------------------------------------------------------------->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--------------------------------------------------------------------- Imagem Barra ------------------------------------------------------------------------->
+
+<link rel="shortcut icon" href="./assets/images/logo.png">
+
+<link rel="stylesheet" type="text/css" href="./assets/css/estilo.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+</head>
+
+<body>
+
+<!----------------------------------------------------------------------- Nav -------------------------------------------------------------------------------->
+<div class="topnav" id="myTopnav">
+  <a class="nav-link disabled" href="#"><img src="assets/images/logo.png" width="75px" height="75px"> </a>
+  <a href="#"><br><i class='fa fa-home' style='font-size:24px'></i> Início </a>
+  <a href="#sobrenos"><br><i class='fa fa-comments' style='font-size:24px'></i> Sobre Nós </a>
+  <a href="#certificados"><br><i style="font-size:24px" class="fa fa-file"></i> Certificados </a>
+  <a href="#orcamento"><br><i class='fa fa-calculator' style='font-size:24px'></i> Orçamentos </a>
+  <a href="galeria.html"><br><i style="font-size:24px" class="fa fa-camera"></i> Galeria </a>
+  <a href="#contato"><br><i class="fa fa-address-book-o" style="font-size:24px;"></i></i> Contato </a>
+  <a href="javascript:void(0);" class="icon" onclick="MyFunction()">
+    <br><i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function MyFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<main>
+
+<!-------------------------------------------------------------------------- Home ---------------------------------------------------------------------------->
+<div class="bg-image">
+	<div class="bg-text">
+	  <h1>Seja Bem Vindo!</h1>
+	  <p>Amauri Jardinagem</p>
+	</div>
+</div>
+
+
+<!------------------------------------------------------------------ Sobre Nós ------------------------------------------------------------------------------->
+
+<div id="sobrenos" class="panel panel-default back4 p2">
+  <div class="panel-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8" align="left">
+				<h2> &nbspSobre Nós </h2>
+				<p>
+				Em virtude da pandemia, Amauri foi realizar um curso de capacitação profissional em jardinagem oferecido pelo Sindicato Rural de Monte Mor. <br> 
+				Capacitado para a nova profissão imprimiu milhares de cartões de visita e espalhou pelas caixinhas de correio da cidade. <br> 
+				Pouco a pouco foi  ganhando reconhecimento de sua dedicação à jardinagem. <br>
+				Após uns meses abriu sua MEI (Micro Empreendedor Individual). Agora é oficialmente uma empresa de jardinagem de CNPJ: 42.172.642/0001-18 <br>
+				Amauri do Figueira está pronto para cuidar do seu jardim!	
+				</p>
+			</div>
+			<div class="col-md-4" align="center"> <br>
+				<img src="./assets/images/amauri.jpg" class="img-thumbnail" width="100%">
+			</div>
+	</div>
+  </div>
+ </div>
+</div>
+
+
+<!---------------------------------------------------------------- Certificados ------------------------------------------------------------------------------->
+
+<div id="certificados" class="panel panel-default back3 p2">
+  <div class="panel-body">
+	<div class="container" align="center">
+		<h1 class="display-5"> Certificados </h1> <br>
+		<div class="row">
+			<div class="col-md-3">
+				<img id="myImg" src="./assets/images/certificado.jpg" alt="Certificado de Jardineiro" style="width:100%;max-width:300px"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img id="myImg2" src="./assets/images/certificado2.jpg" alt="Certificado de Viveirista" style="width:100%;max-width:300px"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img id="myImg3" src="./assets/images/certificado3.jpg" alt="Certificado de Orquidea" style="width:100%;max-width:300px"><br><br>
+			</div>
+			<div class="col-md-3">
+				<img id="myImg4" src="./assets/images/embreve.jpg" alt="Certificado de" style="width:100%;max-width:300px">
+			</div>
+		</div>
+	</div>
+ </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Get the modal
+var modal2 = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// Get the modal
+var modal3 = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg3");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal3.style.display = "none";
+}
+</script>
+
+
+<!----------------------------------------------------------------------- Orçamentos ------------------------------------------------------------------------->
+<div id="orcamento" class="panel panel-default back p2">
+  <div class="panel-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8" align="center"><br><br>
+				<h2> &nbsp Como realizar um orçamento do meu jardim?</h2>
+				<p>
+					Basta entrar em contato com o Amauri e informar o endereço, o dia e o horário disponível para fazer o orçamento.<br>
+					Após isso, caso seja de seu interesse basta marcar o dia e o horário para realização do serviço.
+				</p>
+				<a href="https://api.whatsapp.com/send?phone=5519993662278&text=Olá! Gostaria de realizar um orçamento." target="_blank" class="btn" style="width:50%" role="button"> Marcar Orçamento &raquo;</a>
+			</div>
+			<div class="col-md-4" align="center"><br>
+				<img src="./assets/images/servicos.jpg" class="img-thumbnail" width="100%">
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+
+
+<!------------------------------------------------------------------- Galeria -------------------------------------------------------------------------------->
+
+<div id="galeria" class="panel panel-default back5 p2">
+  <div class="panel-body">
+	<div class="container" align="center">
+		<h1 class="display-5"> Galeria </h1>
+		<a href="galeria.html" class="btn" style="width:50%" role="button"> Ver Galeria &raquo;</a>
+	</div>
+ </div>
+</div>
+
+<!-- SCRIPT DAS IMAGENS DO PORTIFOLIO -->
+<script>
+
+</script>
+
+<!-- SCRIPT DE ABRIR E FECHAR A GALERIA -->
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<!------------------------------------------------------------------------ Contato -------------------------------------------------------------------------->
+<div class="panel panel-default back2 p2">
+  <div class="panel-body">
+	<div id ="contato" class="container">
+
+			<div class="row">
+				<div class="col-md-4" align="center">
+					<div class="jumbotron text-center">
+						<h1 class="display-5"> Contato </h1> <br>
+						<b> Telefone </b> <br>
+						<i class='fa fa-phone' style='font-size:20px;color:white'></i> (19) 99366-2278 <br><br>
+						<b> Whatsapp </b> <br> 
+						<a href="https://api.whatsapp.com/send?phone=5519993662278" target="_blank"><i class='fa fa-whatsapp' style='font-size:20px;color:white'></i> (19) 99366-2278 </a> <br><br>
+						<b> Localização </b> <br>
+						Monte Mor - SP
+					</div>
+				</div>
+				
+				<div class="col-md-5" align="center">
+					<div class="jumbotron text-center">
+						<h1 class="display-5"> Formas de Pagamento </h1> <br>
+						<i class='fa fa-money' style='font-size:36px;color:white'></i> <b>Dinheiro </b> <br> <br>
+						<i class='fa fa-credit-card' style='font-size:36px;color:white'></i> <b>Débito e Crédito</b><br><br>
+						<i class='fa fa-usd' style='font-size:36px;color:white'></i> <b>Pix </b><br>
+					</div>
+				</div>
+				
+				<div class="col-md-3" align="center">
+					<div class="jumbotron text-center">
+						<img src="./assets/images/pagamento.jpg" class="img-thumbnail" width="185px">
+					</div>
+				</div>
+				
+			</div>
+	</div>
+  </div>
+</div>
+
+</main>
+
+<!--------------------------------------------------------------------- Rodapé ------------------------------------------------------------------------------->
+
+<div class="panel panel-default rodape">
+  <div class="panel-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2" align="center">
+				<img src="assets/images/logo.png" width="80px" height="80px">
+			</div>
+			
+			<div class="col-md-3" align="center">
+				<p><br>
+				<b>Orçamento sem compromisso!</b>
+				</p>
+			</div>
+			
+			<div class="col-md-2" align="center">
+				<p>
+				<b> Contate-nos </b> <br>
+				<!-- LINK WHATSAPP -->
+				<a href="https://api.whatsapp.com/send?phone=5519987398970" target="_blank"> 
+				<i class='fa fa-whatsapp' style='font-size:36px;color:white'></i>
+				</a>
+				<!-- LINK INSTAGRAM -->
+				<a href="https://instagram.com/amaurijardinagem?utm_medium=copy_link" target="_blank">
+				<i class='fa fa-instagram' style='font-size:36px;color:white'></i>
+				</a> 
+				<!-- LINK FACEBOOK -->
+				<a href="https://www.facebook.com/amauridofigueira/" target="_blank">
+				<i class='fa fa-facebook-square' style='font-size:36px;color:white'></i>
+				</a>
+				</p>
+			</div>
+			
+			<div class="col-md-2" align="center">
+				<p> <b> Webdesigner </b> <br>
+				Kamile da Silva e Silva 
+				</p>
+			</div>
+			
+			<div class="col-md-3" align="center"><br>
+				<p> &copy; Developer Inc. 2021 </p>
+			</div>
+		</div>
+		
+	</div>
+  </div>
+</div>
+
+<!--chama o jquery-->
+<script type="text/javascript" src="assets/js/jquery-3.5.0.min.js"> </script>
+<!--chama o bundle-->
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"> </script>
+
+</body>
+</html>
